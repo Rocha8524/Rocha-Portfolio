@@ -1,0 +1,92 @@
+header {
+  font-size: 26px;
+  background: rgb(211, 220, 223); 
+  padding: 4px;
+  margin: 6px;
+  text-align: center;
+  border-bottom: 8px solid #4aaaa5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #333;
+    background:rgb(211, 220, 223);  
+    width: 960px;
+    font-size: 18px;
+    line-height: 34px;
+    margin: auto;
+    display: block;
+  }
+
+.bio {
+    height: 720px;
+    background: #ebebeb;
+    padding: 25px;
+    margin: 5px;
+  }
+
+h2 {
+    text-align: center;
+    margin: 1%;
+  }
+
+#bio-image{
+    float: left;
+    margin: 10px;
+  }
+
+.one {
+  margin-top: 0px;
+}
+
+.two {
+  margin-top: -10px;
+}
+
+form {
+  text-align: center;
+}
+
+div {
+  padding: 3px;
+}
+
+.hangman {
+  text-align: center;
+}
+
+.rpg {
+  float: left;
+  text-align: center;
+}
+
+.trivia {
+  float: right;
+  text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.widget {
+  float: left;
+  text-align: center;
+}
+
+.rps {
+  float: right;
+  text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+footer {
+  background: rgb(211, 220, 223);
+  padding: 30px;
+  margin: 5px;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  }
