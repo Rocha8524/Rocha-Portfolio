@@ -4,106 +4,334 @@
 <head>
     <meta charset="UTF-8">
     <title>Alexander Rocha Website</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body class="text-center" style="background-color: #e3f2fd;">
     <header>
-        <nav class="navbar navbar-expand-large navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"><img
-                    src="assets\images\alex-picture.jpeg"
-                    width="30" height="30" class="d-inline-block align-top"> Alexander Rocha</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Bio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/alexander-rocha-79a560b0/">Professional
-                            Experiences</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="navbar">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Information</a>
+        </div>
     </header>
 
-    <br>
-    <h3>About Me</h3>
+    <div class="jumbotron">
+        <div class="jumbotron-text">
+            <h1>Alexander Rocha</h1>
+            <p>Full-Stack Web Developer</p>
+        </div>
+        <div class="jumbotron-social">
+            <ul class="ul-social">
+                <li class="li-social-links">
+                    <a class="social" href="https://github.com/" target="_blank"><i class="fa fa-github"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="li-social-links">
+                    <a class="social" href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="li-social-links">
+                    <a class="social" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="li-social-links">
+                    <a class="social" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="li-social-links">
+                    <a class="social" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
+                            aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div id="down-arrow">
+            <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+        </div>
+    </div>
 
-    <hr>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img img-thumbnail"
-                    src="https://media.licdn.com/dms/image/C4E03AQF9__iXYhMFqQ/profile-displayphoto-shrink_200_200/0?e=1571270400&v=beta&t=zdatbSPKCF7C6Z_mRILC2ij0TSpZDA0xUbD_sVuptCw">
-                <h5>Quick Facts</h5>
+    <!--ABOUT -->
+    <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="about"></a>
+                <h2>About</h2>
+            </div>
+            <div class="content-body">
                 <p>My name is Alexander Rocha. I am 30 years old and I was born and raised in the state of New Jersey. I
                     graduated from Kean University majoring in history and secondary education. I have taught middle and
                     high school social studies in London, UK and in New Jersey. I am currently a high school social
                     studies teacher and an aspiring web developer.</p>
-            </div>
-
-            <div class="col-md-6">
-                <img class="img img-thumbnail" src="https://imgs2.dab3games.com/hit-the-computer-game.png">
-                <h5>Current Goals</h5>
                 <p>My goal for this year is to complete my web developent bootcamp course and use my newly developed
                     skiils to help middle school and high school students. Not only do I want to teach my students how
                     to code, but I also want to develop new software programs and apps that will enhance student
                     learning and support teachers in the classroom.</p>
             </div>
         </div>
+        <div class="side-content"></div>
     </div>
 
-    <br>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img img-thumbnail"
-                    src="https://pbs.twimg.com/profile_images/1148511565894901763/YoaFWeqK_200x200.png">
-                <h5>Interests</h5>
-                <p>I enjoy playing and watching soccer whenever I get the opportunity. My favorite team that I love to
-                    root for is Benfica. I enjoy watching my teams win and scouting some of the young upcoming talent
-                    that are coming from the youth leagues. </p>
+    <!--EXPERIENCE -->
+    <div class="row">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="experience"></a>
+                <h2>Experience</h2>
             </div>
-            <div class="col-md-6">
-                <img class="img img-thumbnail"
-                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494477386i/34435464._UY200_.jpg">
-                <h5>Dream</h5>
-                <p>I enjoy traveling to unique places whenever I get the opportunity. My ultimate goal is to save up
-                    enough money and travel around the world. I want to visit some of the world's most historical
-                    landmarks and enjoy the best food that I can come across.</p>
+            <!-- CARD #1 -->
+            <div class="content-body">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Company <span class="job-title">Job Title</span></h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+                <!-- CARD #2 -->
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Company <span class="job-title">Job Title</span></h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+                <!-- CARD #3 -->
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Company <span class="job-title">Job Title</span></h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+                <!-- CARD #4 -->
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Company <span class="job-title">Job Title</span></h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+                <!-- CARD #5 -->
+
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Company <span class="job-title">Job Title</span></h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="side-content"></div>
     </div>
+    <!-- END EXPERIENCE -->
+
+    <!-- BEGIN EDUCATION -->
+    <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="education"></a>
+                <h2>Education</h2>
+            </div>
+            <div class="content-body">
+
+                <!-- EDUCATION 1 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Rutgers University <span class="job-title">August 2019 to February 2020</span></h4>
+                    </div>
+                    <div class="card-content">
+                        <p>An intensive 24 week long bootcamp dedicated to designing and building web applications by
+                            acquiring skills such as:</p>
+                        <li>Front End Technologies (HTML5, CSS3, Bootstrap 4, JavaScript, jQuery, Handlebars and React)
+                        </li>
+                        <li>Back End Server Side Technologies (Node.js, Express.js)</li>
+                        <li>Database (MySQL, MongoDB and Firebase)</li>
+                        <li>Deployment (Git, Amazon Web Services, and Heroku)</li>
+                    </div>
+                </div>
+                <!-- EDUCATION 2 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Kean University <span class="job-title">September 2009 to August 2012</span></h4>
+                    </div>
+                    <div class="card-content">
+                        <p>Activities and Societies: Phi Alpha Theta: National History Honor Society Kappa Delta Pi: International Honor Society in the Field of Education Lambda Alpha Sigma: Honor Society for Arts & Sciences (Kean University)
+                            Bachelor’s Degree: History/Teacher Certification, Kean University, Union, New Jersey (2012)
+                            Special Workshops: Anti-Bullying, Classroom Management, Charlotte Danielson Teacher Assessment
+                            Special Project: Kappa Delta Pi: Community Service Book Drive-Books were donated to Woodbridge Township Public Schools & Metuchen Day-Care Facility</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="side-content"></div>
+    </div>
+    <!-- END EDUCATION -->
+
+    <!-- BEGIN PROJECTS -->
+    <div class="row">
+        <div class="side-content-sm"></div>
+        <div class="main-content-lg">
+            <div class="content-header">
+                <a class="anchor" name="projects"></a>
+                <h2>Projects</h2>
+            </div>
+            <div class="content-body">
+                <!-- CARD #1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="http://placehold.it/250x350">
+                    </div>
+                    <div class="project-content">
+                        <h4>Project Name</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#">Link Text</a>
+                    </div>
+                </div>
+                <!-- CARD #2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="http://placehold.it/250x350">
+                    </div>
+                    <div class="project-content">
+                        <h4>Project Name</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#">Link Text</a>
+                    </div>
+                </div>
+                <!-- CARD #3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="http://placehold.it/250x350">
+                    </div>
+                    <div class="project-content">
+                        <h4>Project Name</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#">Link Text</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="side-content-sm"></div>
+    </div>
+    <!-- END PROJECTS -->
+
+    <!-- BEGIN SKILLS -->
+    <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="skills"></a>
+                <h2>Skills</h2>
+            </div>
+            <div class="content-body">
+                <ul class="ul-skills">
+                    <li class="li-skills">Javascript</li>
+                    <li class="li-skills">HTML</li>
+                    <li class="li-skills">CSS</li>
+                    <li class="li-skills">React</li>
+                    <li class="li-skills">Node.js</li>
+                    <li class="li-skills">Bootstrap</li>
+                    <li class="li-skills">Webpack</li>
+                    <li class="li-skills">jQuery</li>
+                    <li class="li-skills">Javascript</li>
+                    <li class="li-skills">HTML</li>
+                    <li class="li-skills">CSS</li>
+                    <li class="li-skills">React</li>
+                    <li class="li-skills">Node.js</li>
+                    <li class="li-skills">Bootstrap</li>
+                    <li class="li-skills">Webpack</li>
+                    <li class="li-skills">jQuery</li>
+                </ul>
+            </div>
+        </div>
+        <div class="side-content"></div>
+    </div>
+    <!-- END SKILLS -->
+
+    <!-- BEGIN CONTACT -->
+
+    <div class="row blue">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <a class="anchor" name="contact"></a>
+                <h2 class="white-text">Contact Me</h2>
+            </div>
+            <div class="contact content-body">
+                <form method="POST" action="https://formspree.io/email@email.com">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="side-content"></div>
+    </div>
+    <!-- END CONTACT -->
+
+
+    <!--<a class="navbar-brand" href="#"><img src="assets\images\alex-picture.jpeg" width="30" height="30"
+        class="d-inline-block align-top"> Alexander Rocha</a> -->
 
     <hr>
 
     <footer class="text-center">
-        <h6> © 2019 Copyright Alexander Rocha</h6>
+        <h6> © 2020 Copyright Alexander Rocha</h6>
     </footer>
 
 </body>
