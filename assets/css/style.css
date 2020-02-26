@@ -39,6 +39,14 @@ h2 {
   margin-top: 0px;
 }
 
+.employer {
+  float: left;
+}
+
+.job-title {
+  float: right;
+}
+
 .two {
   margin-top: -10px;
 }
