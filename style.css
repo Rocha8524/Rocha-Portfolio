@@ -2,7 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background: rgba(242, 242, 242, .6);
     margin: 0;
-  }
+}
   
   * {
     box-sizing: border-box
@@ -34,16 +34,11 @@ body {
   
   /*JUMBOTRON*/
   .jumbotron {
-    height: 80vh; /*height to 100% of view height*/
+    height: 120vh; /*height to 100% of view height*/
     background-image: url("./assets/images/Alexander-Rocha.jpg");
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
     margin-bottom: 0; /*no bottom margin*/
-  
-    display: flex;
     flex-direction: column;
   }
   

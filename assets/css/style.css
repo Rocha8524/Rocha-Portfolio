@@ -16,24 +16,24 @@ body {
     line-height: 34px;
     margin: auto;
     display: block;
-  }
+}
 
 .bio {
     height: 720px;
     background: #ebebeb;
     padding: 25px;
     margin: 5px;
-  }
+}
 
 h2 {
     text-align: center;
     margin: 1%;
-  }
+}
 
 #bio-image{
     float: left;
     margin: 10px;
-  }
+}
 
 .one {
   margin-top: 0px;
@@ -97,4 +97,4 @@ footer {
   margin: 5px;
   text-align: center;
   border-top: 8px solid #4aaaa5;
-  }
+}
